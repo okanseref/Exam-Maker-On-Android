@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rowback"
+    android:backgroundTint="#92FFE997"
+    android:backgroundTintMode="src_atop"
+    android:orientation="vertical"
+    tools:context="tr.STD17011042.OkanSeref.QuestionUpdate">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.7" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.7">
+
+        <EditText
+            android:id="@+id/questionTextUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Text" />
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/Answers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/answerGroupUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right|top">
+
+                <RadioButton
+                    android:id="@+id/Answer1Radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@drawable/myradiobutton"
+                    app:useMaterialThemeColors="false" />
+
+                <RadioButton
+                    android:id="@+id/Answer2Radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@drawable/myradiobutton"
+                    app:useMaterialThemeColors="false" />
+
+                <RadioButton
+                    android:id="@+id/Answer4Radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@drawable/myradiobutton"
+                    app:useMaterialThemeColors="false" />
+
+                <RadioButton
+                    android:id="@+id/Answer3Radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@drawable/myradiobutton"
+                    app:useMaterialThemeColors="false" />
+
+                <RadioButton
+                    android:id="@+id/Answer5Radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@drawable/myradiobutton"
+                    app:useMaterialThemeColors="false" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Answer1Update"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:background="#EAE5E5"
+                android:ems="10"
+                android:hint="Answer"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/Answer2Update"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:background="#EAE5E5"
+                android:ems="10"
+                android:hint="Answer"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/Answer3Update"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:background="#EAE5E5"
+                android:ems="10"
+                android:hint="Answer"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/Answer4Update"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:background="#EAE5E5"
+                android:ems="10"
+                android:hint="Answer"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/Answer5Update"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:background="#EAE5E5"
+                android:ems="10"
+                android:hint="Answer"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.2" />
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.7"
+        android:gravity="center">
+
+        <android.widget.Button
+            android:id="@+id/submitUpdate"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonpruple"
+            android:text="UPDATE" />
+    </TableRow>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.7" />
+</LinearLayout>

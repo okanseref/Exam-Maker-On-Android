@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Okan Seref App</string>
+    <string name="title_activity_sing_up">Sign Up</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+</resources>

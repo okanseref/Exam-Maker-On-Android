@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tr.STD17011042.OkanSeref">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:installLocation="preferExternal"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobilProgDeneme">
+        <activity android:name="tr.STD17011042.OkanSeref.NewExam"></activity>
+        <activity android:name="tr.STD17011042.OkanSeref.ExamSettings" />
+        <activity android:name="tr.STD17011042.OkanSeref.QuestionUpdate" />
+        <activity android:name="tr.STD17011042.OkanSeref.QuestionList" />
+        <activity android:name="tr.STD17011042.OkanSeref.QuestionAdd" />
+        <activity android:name="tr.STD17011042.OkanSeref.Menu" />
+        <activity android:name="tr.STD17011042.OkanSeref.LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tr.STD17011042.OkanSeref.SignUp"
+            android:label="@string/title_activity_sign_up" />
+    </application>
+
+</manifest>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/row_background"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/rowback"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="12dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/rowText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|start"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:text="Text"
+            android:textColor="#FAFAFA"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rowAns1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:text="TextView"
+            android:textColor="#FAFAFA"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/rowAns2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:text="TextView"
+            android:textColor="#FAFAFA"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/rowAns3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:text="TextView"
+            android:textColor="#FAFAFA"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/rowAns4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:text="TextView"
+            android:textColor="#FAFAFA"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/rowAns5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:text="TextView"
+            android:textColor="#FAFAFA"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="12dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="horizontal">
+
+            <android.widget.Button
+                android:id="@+id/rowUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/buttonpruple"
+                android:text="UPDATE" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.9" />
+
+            <android.widget.Button
+                android:id="@+id/rowDelete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/buttonred"
+                android:text="DELETE" />
+        </LinearLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:gravity="center">
+
+            <android.widget.Button
+                android:id="@+id/rowSound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonpruple"
+                android:gravity="center"
+                android:text="START"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/rowImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <VideoView
+                android:id="@+id/rowVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/rowRightAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.85"
+            android:text="TextView"
+            android:textColor="#7CBD41"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
