@@ -1,5 +1,14 @@
-# MobilProgramlamayaGiris
-Okan Şeref 17011042
+# Exam Maker
 
-Video:
-https://youtu.be/tFjuJ0dtHgE
+Exam Maker project on Anroid Studio
+
+* Create questions
+* Share exams
+* Store video, audio & image
+
+Good example for:
+
+* SQLite
+* File storage
+* Shared preferences
+* Recycler view
